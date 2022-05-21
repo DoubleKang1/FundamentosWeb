@@ -1,0 +1,52 @@
+/*CSS do Index.html*/
+body{
+    background-color: rgb(37, 36, 36);
+}
+.center{
+    text-align: center;
+}
+
+h1{
+    color: goldenrod;
+}
+
+.text{
+    color: aliceblue;
+}
+
+.nav{
+    background-color: black;
+    overflow: hidden;
+
+}
+
+.nav a {
+    font-family:Arial, Helvetica, sans-serif;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+ul{
+    list-style: none;
+}
+
+.nav a:hover {
+    background-color: goldenrod;
+    color: black;
+  }
+
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+/*CSS da Gameplay.html*/
+.video{
+    padding: 80px;
+}
