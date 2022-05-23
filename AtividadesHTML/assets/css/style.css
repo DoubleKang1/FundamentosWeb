@@ -40,13 +40,36 @@ ul{
   }
 
 
+/*CSS da Gameplay.html*/
+.video{
+    padding: 80px;
+}
+
+/*CSS do Contato.html*/
+.ml-50{
+    margin-left: 50px;
+}
+
 .container{
     display: flex;
     flex-flow: row;
     justify-content: center;
 }
 
-/*CSS da Gameplay.html*/
-.video{
-    padding: 80px;
-}
+.button {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button:hover{
+      background-color: goldenrod;
+      color: black;
+  }
